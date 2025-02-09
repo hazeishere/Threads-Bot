@@ -116,11 +116,12 @@ class ThreadsBot:
                     print("Failed to post to Threads")
         self.driver.quit()
 
-def random_time():
+"""
+ def random_time():
     hour = random.randint(0, 23)
     minute = random.randint(0, 59)
     return f"{hour:02d}:{minute:02d}"
-
+"""
 def main():
     bot = ThreadsBot()
     bot.run()
